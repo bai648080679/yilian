@@ -1,0 +1,31 @@
+.appxz{position:relative;}
+.appxz .inp_group{position:absolute; top:57.2%; right:13%;}
+.appxz .inp_group a{width:190px; height:65px; line-height:65px; display:block; text-align: center; border:2px solid #148EA3; color:#fff; margin-bottom:20px; font-size:20px;}
+.appxz .inp_group a:nth-of-type(1){background:#148EA3;}
+.main>h2{padding-top:100px;}
+.main .content{padding-top:80px; padding-bottom:25px;}
+.main .content .img-div{padding-top:20px;padding-right:5px;}
+.bg{background:#ECECEC;}
+.bg h2{padding-top:68px;}
+.bg h5{padding-bottom:88px;}
+@media screen and (max-width:1200px) {
+	.bg h5{padding-bottom:30px;}
+	.gn div img{width:100%;}
+}
+.gn h2{padding-top:206px;}
+.gn div{max-height:702px; overflow: hidden; padding-top:74px;}
+.gn ul{padding:40px 0 0 0;}
+.gn ul li{list-style: none; background:url(../img/down-fun-li.png) no-repeat left 12px; padding-left:30px; font-size:18px; line-height:50px;}
+.jum{border:1px solid #F4F4F4; border-left:0; border-right:0; background:#fff; padding-bottom:0;}
+.jum h2{padding-top:58px;}
+@media screen and (max-width:992px) {
+	.gn div{max-height:500px !important;}
+	.gn h2{padding-top:66px;}
+}
+@media screen and (max-width:768px) {
+	.gn h2{padding-top:26px !important;}
+	.gn div:nth-of-type(2){padding-top:24px;}
+}
+@media screen and (max-width:400px) {
+	.gn ul{display:none;}
+}

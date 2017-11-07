@@ -1,0 +1,24 @@
+body{background:#ECECEC;}
+aside{position:fixed; top:125px; right:6%; width:25.8%;}
+aside ul{width:100%;}
+aside ul li{width:100%; height:75px; line-height:75px; text-align: center; box-shadow: 0 0 3px #ccc; list-style:none; cursor:pointer; background:#fff; transition:1s; margin-bottom:20px;}
+aside ul li a{color:#0062AB; font-size:24px; display:block;}
+aside ul li.active{background:#EFF5FB;}
+aside ul li:hover{background:#EFF5FB;}
+.none{display:none;}
+.main{padding-top:34px;}
+.main .news-cont{background:#fff; margin-bottom:26px; box-shadow:0 0 3px #ccc; margin:0px 20px 25px 20px; padding:10px 25px; text-align: center;}
+.main .news-cont h3{text-align:center; color:#0062AB; padding-top:26px;}
+.main .news-cont p{font-size:16px; text-indent:10px; line-height:38px; text-align: left; padding:8px 0 0 0;}
+.main .news-cont a{margin:20px 0 30px 0;}
+.main .breadnav{margin:32px 20px;}
+.main .breadnav div{float:left; height:68px; line-height:68px; background:#fff; box-shadow:0 0 3px #ccc; text-align:center;}
+.main .breadnav div:nth-of-type(1){width:10%; cursor:pointer; margin-right:2%;}
+.main .breadnav div:nth-of-type(2){width:76%; margin-right:2%; color:#0062AB;}
+.main .breadnav div:nth-of-type(3){width:10%; cursor:pointer;}
+@media screen and (max-width:768px) {
+	aside ul li{float:left; width:32%; margin-right:2%;}
+	aside ul li:last-of-type{margin-right:0;}
+	aside{width:90%; left:5%; top:20px; position:relative;}
+	aside ul{padding-left:0;}
+}

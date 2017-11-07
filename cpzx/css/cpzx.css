@@ -1,0 +1,24 @@
+footer{background:#ECECEC;}
+.main h3,.trait h3{line-height:60px;}
+.main h2,.trait h2,.table-group h2{padding-top:38px;}
+.main h3{padding-bottom:90px;}
+.trait{background:#ECECEC; margin-bottom:0;}
+.trait>div>div{padding-top:40px;}
+.trait>div>div>div p{width:66%; height:114px; line-height:114px; border:3px solid #616161; font-size:18px; color:#181818; font-weight:bold; border-radius:30px; margin:0 auto;}
+.trait>div>div>div{margin-bottom:43px;}
+@media screen and (min-width:1200px) {
+	.trait .row{padding:0 250px !important;}
+	.trait>div>div>div p{width:204px;}
+}
+@media screen and (max-width:530px) {
+	.trait>div>div>div p{width:90%;}
+}
+.p-t-30{padding-top:30px;}
+.table tbody tr td{transition:1s;}
+.table tbody tr td:hover{background:#EEF7FB;}
+.table thead tr th{background:#00ADA2; width:257px; padding-top:0px !important;}
+.table thead tr th h4{text-align:center; color:#fff;}
+.table thead tr th h4:nth-of-type(1){margin-top:35px;}
+.table thead tr th h4:nth-of-type(2){margin-bottom:20px;}
+.table tbody tr td h5{line-height:42px; font-weight:bold;}
+.table tbody tr td h5 span{font-weight:normal; padding-left:20px;}

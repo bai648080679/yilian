@@ -1,0 +1,10 @@
+body{background:#ECECEC;}
+.main{margin:69px auto 50px auto;}
+.main .thumbnail{height:600px; padding:10px !important; border:1px solid #E8E8E8; cursor:pointer; transition:.4s;}
+.main .thumbnail:hover{box-shadow:0 0 10px #AACEE5;}
+.main .thumbnail-img{width:100%; overflow:hidden; background:#F3F9E7; text-align:center;}
+.main .thumbnail-img img{max-height:400px; max-width:560px;}
+.main .thumbnail-cont{text-align: center;}
+.main .thumbnail-cont h3{color:#6A747B; font-size:22px; padding:23px 0 0 0;}
+.main .thumbnail-cont h6{color:#6A747B; font-size:20px; padding:11px 0 0 0; line-height:2;}
+.main .thumbnail-cont h3:hover{color:#2582C1;}

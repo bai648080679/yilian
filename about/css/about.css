@@ -1,0 +1,31 @@
+footer{background:#ECECEC !important;}
+.main{background:url(../img/banner-about.jpg) no-repeat center center; background-size:100% 100%;}
+.main div{width:75%; margin:0 auto; text-align: center; padding:172px 0 200px 12%;}
+.main div h2{font-size:32px;}
+.main div h6{font-size:18px;}
+.main div h3{font-size:22px; line-height:44px;}
+.main1{background:url(../img/banner-about-bg.png) no-repeat center center; background-size:100% 100%;}
+.main1 img{width:80%; padding-top:68%;}
+.main1 h4,.main1 p{color:#fff;}
+.main1 h4{padding:150px 0 10px 0;}
+.main1 p{font-size:16px; line-height:33px;}
+.main1 p:nth-of-type(2){padding-bottom:20px;}
+.main2 div{padding:50px 0 90px 0;}
+.main2 p{font-size:16px; line-height:33px;}
+.main3{background:#F9F9F9;}
+.main3>div{padding-top:38px; padding-bottom:90px;}
+.main3>div>div{padding:15px 0;}
+.main3 h2{padding-top:50px;}
+.main4 h1{color:#5D5D5D;}
+.main4 h4{color:#5D5D5D; line-height:38px;}
+.main4>div{padding-top:50px; padding-bottom:50px;}
+.container-fluid{padding:0 !important;}
+.banner .pos{position:absolute; left:0; top:0; width:100%; text-align: center;}
+.banner .pos h1{color:#fff; padding:8% 0 10px 0; width:100%; text-align: center;}
+.banner .pos p{color:#fff; line-height:33px; font-size:18px; width:60%; margin:0 auto;}
+.main5{padding:145px 0 54px 0;}
+.main5 span{font-size:62px; color:#2892FA;}
+@media screen and (max-width:1310px) and (min-width:992px){
+	.banner .pos h1{padding-top:4%;}
+	.banner .pos p{width:80%;}
+}
